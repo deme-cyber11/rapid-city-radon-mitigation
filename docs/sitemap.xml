@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://rapidcityradon.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://rapidcityradon.com/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://rapidcityradon.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://rapidcityradon.com/faq.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://rapidcityradon.com/privacy-policy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://rapidcityradon.com/terms-of-service.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://rapidcityradon.com/services/radon-testing.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rapidcityradon.com/services/radon-mitigation.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rapidcityradon.com/services/radon-system-installation.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rapidcityradon.com/services/sub-slab-depressurization.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rapidcityradon.com/services/radon-fan-replacement.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rapidcityradon.com/services/post-mitigation-testing.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/rapid-city.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/box-elder.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/summerset.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/black-hawk.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/sturgis.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/spearfish.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/belle-fourche.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/hot-springs.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/hill-city.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/locations/keystone.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>
