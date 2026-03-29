@@ -22,4 +22,6 @@
   <url><loc>https://rapidcityradon.com/locations/hot-springs.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://rapidcityradon.com/locations/hill-city.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://rapidcityradon.com/locations/keystone.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/blog/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://rapidcityradon.com/blog/how-much-does-radon-mitigation-cost-rapid-city.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
