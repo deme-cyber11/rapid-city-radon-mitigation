@@ -125,9 +125,8 @@
           <div><span>Hours</span><br>Mon&ndash;Fri: 7:00 AM &ndash; 6:00 PM<br>Sat: 8:00 AM &ndash; 2:00 PM</div>
         </div>
       </div>
-      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="0219881f-13e5-4175-b720-517b8d10c028">
-        <input type="hidden" name="subject" value="New Lead — Badlands Radon">
+      <form class="contact-form" action="https://lead-manager-api.irontigerdigital.workers.dev/ingest" method="POST">
+        <input type="hidden" name="_subject" value="New Lead — Badlands Radon">
         <input type="hidden" name="redirect" value="https://badlandsradon.com/thank-you.html">
         <input type="hidden" name="from_name" value="Rapid City Radon Website">
         <input type="checkbox" name="botcheck" style="display:none">
