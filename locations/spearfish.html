@@ -199,8 +199,9 @@ body{padding-bottom:70px}
 <section class="cta-section" id="contact">
   <h2>Get Your Free Estimate in Spearfish</h2>
   <p class="subtitle">Fill out the form or call us directly at <a href="tel:6056405642" style="color:var(--accent);font-weight:700">(605) 640-5642</a></p>
-  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-    <input type="hidden" name="access_key" value="0219881f-13e5-4175-b720-517b8d10c028">
+  <form class="contact-form" action="https://lead-manager-api.irontigerdigital.workers.dev/ingest" method="POST">
+        <input type="hidden" name="_subject" value="New Lead - Badlands Radon">
+        <input type="hidden" name="from_name" value="Badlands Radon Website">
     <input type="hidden" name="subject" value="New lead from Rapid City Radon - Spearfish page">
     <input type="hidden" name="redirect" value="https://badlandsradon.com/thank-you.html">
     <input type="checkbox" name="botcheck" style="display:none">
