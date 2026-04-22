@@ -1,0 +1,25 @@
+/* Badlands Radon — site-specific overrides for v2.5 */
+/* Primary palette: Navy (#1a3a5c) + Safety Green (#28a745) */
+/* Color vars are set in style.v2.5.css :root — this file handles structural edge cases */
+
+/* Fixed header clearance for inner pages */
+.hero--inner    { padding-top: 7rem; padding-bottom: 3rem; }
+@media (max-width: 768px) {
+  .hero--inner  { padding-top: 6rem; padding-bottom: 2.5rem; }
+}
+
+/* Scrollable wide tables on mobile */
+main table,
+.svc-content table,
+.loc-content table,
+.about-content table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Responsive contact grid */
+@media (max-width: 640px) {
+  .contact-grid { grid-template-columns: 1fr !important; }
+  .form { padding: 24px !important; }
+}
