@@ -70,6 +70,10 @@ textarea{resize:vertical;min-height:88px;line-height:1.6}
 .success a{color:#e94560;font-weight:600}
 .footer{text-align:center;padding:32px 16px;font-size:.8125rem;color:#94a3b8}
 .footer a{color:#e94560;font-weight:500}
+/* Round 2 2026-10-01: phone and tablet only (CSS, no form markup changed). The whole label row is the tap
+   target; the checkbox box itself gets a 40px-tall hit area with negative margins so the row height does not change. */
+@media(max-width:1024px){.check-item input[type=checkbox]{height:40px;margin:-11px 0}}
+@media(max-width:768px){.footer{font-size:15px}}
 </style>
 <!-- favicon + link preview (tools/link-preview-kit.py) -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -87,7 +91,7 @@ textarea{resize:vertical;min-height:88px;line-height:1.6}
 <body>
 
 <nav class="nav">
-  <div class="nav__logo">Radon <span>Pro</span></div>
+  <div class="nav__logo">Badlands <span>Radon</span></div>
   <a href="tel:6056405642" class="nav__cta">(605) 640-5642</a>
 </nav>
 
@@ -311,7 +315,7 @@ textarea{resize:vertical;min-height:88px;line-height:1.6}
 </main>
 
 <div class="footer">
-  <p>&copy; 2026 Radon Mitigation in Rapid City, SD &nbsp;|&nbsp; Licensed &amp; Insured&nbsp;|&nbsp; <a href='tel:6056405642'>(605) 640-5642</a></p>
+  <p>&copy; 2026 Badlands Radon &nbsp;|&nbsp; Licensed &amp; Insured&nbsp;|&nbsp; <a href='tel:6056405642'>(605) 640-5642</a></p>
 </div>
 
 <script>
