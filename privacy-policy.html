@@ -17,7 +17,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-<script defer src="https://unpkg.com/@phosphor-icons/web" defer></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{--primary:#1a3a5c;--accent:#28a745;--accent-hover:#218838;--dark:#0f2133;--light:#f7f9fc;--gray:#6b7280;--white:#fff;--shadow:0 2px 12px rgba(0,0,0,.08);--radius:8px;--font-heading:'Space Grotesk',sans-serif;--font-body:'DM Sans',sans-serif}
@@ -133,27 +132,28 @@ body{padding-bottom:70px}
   <meta name="twitter:description" content="Privacy policy for Badlands Radon. Learn how we collect, use, and protect your personal information." />
     <meta name="theme-color" content="#1a3a5c">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/modern.css?v=20261001">
 </head>
-<body>
+<body class="br br-page br-privacy-policy">
 
 <!-- STICKY HEADER -->
 <header class="site-header">
   <div class="header-inner">
-    <a href="/" class="logo">Rapid City <span>Radon</span></a>
-    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('nav').classList.toggle('open')">&#9776;</button>
+    <a href="/" class="logo">Badlands <span>Radon</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('nav').classList.toggle('open')"><svg class="br-i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg></button>
     <nav>
       <a href="/">Home</a>
       <a href="/about.html">About</a>
       <a href="/#services">Services</a>
       <a href="/faq.html">FAQ</a>
       <a href="/contact.html">Contact</a>
-      <a href="tel:6056405642" class="header-phone"><i class="ph ph-phone"></i> (605) 640-5642</a>
+      <a href="tel:6056405642" class="header-phone"><svg class="br-i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z" clip-rule="evenodd"/></svg> (605) 640-5642</a>
     </nav>
   </div>
 </header>
 
 <!-- PAGE HERO -->
-<section class="page-hero">
+<section class="page-hero" style="--hero-img:url(/images/site/black-hills.jpg)">
   <h1>Privacy Policy</h1>
   <div class="breadcrumb"><a href="/">Home</a> &rsaquo; Privacy Policy</div>
 </section>
@@ -235,7 +235,7 @@ body{padding-bottom:70px}
     <div class="footer-col">
       <h4>Badlands Radon</h4>
       <p>Professional radon testing and mitigation for homes across the Black Hills region. Licensed &amp; insured.</p>
-      <p style="margin-top:.75rem"><a href="tel:6056405642">(605) 640-5642</a></p>
+      <p><a href="tel:6056405642">(605) 640-5642</a></p>
       <p><span>contact@badlandsradon.com</span></p>
     </div>
     <div class="footer-col">
@@ -279,8 +279,8 @@ body{padding-bottom:70px}
 
 
 <div class="floating-cta" id="floating-cta">
-  <a href="tel:+16056405642" class="fcta-call" aria-label="Call Now"><span class="fcta-label">Call Now</span><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg></a>
-  <a href="/contact.html" class="fcta-quote" aria-label="Free Quote"><span class="fcta-label">Free Quote</span><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></a>
+  <a href="tel:+16056405642" class="fcta-call" aria-label="Call Now"><span class="fcta-label">Call Now</span><svg class="br-i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z" clip-rule="evenodd"/></svg></a>
+  <a href="/contact.html" class="fcta-quote" aria-label="Free Quote"><span class="fcta-label">Free Quote</span><svg class="br-i" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M4.5 2A1.5 1.5 0 0 0 3 3.5v13A1.5 1.5 0 0 0 4.5 18h11a1.5 1.5 0 0 0 1.5-1.5V7.621a1.5 1.5 0 0 0-.44-1.06l-4.12-4.122A1.5 1.5 0 0 0 11.378 2H4.5Zm2.25 8.5a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Zm0 3a.75.75 0 0 0 0 1.5h6.5a.75.75 0 0 0 0-1.5h-6.5Z" clip-rule="evenodd"/></svg></a>
 </div>
 <script>
 (function(){
@@ -291,5 +291,6 @@ body{padding-bottom:70px}
   },{passive:true});
 })();
 </script>
+<script defer src="/js/site-ui.js?v=20261001"></script>
 </body>
 </html>
