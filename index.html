@@ -101,7 +101,7 @@
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-D6ZBY16329');</script>
 <!-- Clarity -->
 <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","vqc68ce75g");</script>
-<link rel="stylesheet" href="/css/modern.css?v=20261001r2">
+<link rel="stylesheet" href="/css/modern.css?v=20261007a">
 <!-- favicon + link preview (tools/link-preview-kit.py) -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -121,7 +121,7 @@
 <nav class="nav" aria-label="Main navigation">
   <div class="nav__inner">
     <a href="/" class="nav__logo">Badlands <span>Radon</span></a>
-    <ul class="nav__links">
+    <ul class="nav__links" id="home-menu">
       <li><a href="/">Home</a></li>
       <li><a href="/services/radon-mitigation.html">Services</a></li>
       <li><a href="/about.html">About</a></li>
@@ -129,7 +129,7 @@
       <li><a href="/faq.html">FAQ</a></li>
       <li><a href="/contact.html#contact" class="nav__cta">Free Estimate</a></li>
     </ul>
-    <button class="nav__toggle" aria-label="Toggle navigation" aria-expanded="false">
+    <button class="nav__toggle" aria-label="Toggle navigation menu" aria-controls="home-menu" aria-expanded="false">
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 12h18M3 6h18M3 18h18" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
     </button>
   </div>
@@ -137,7 +137,7 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero__bg" style="background-image:url('/images/site/home-hero.jpg')"></div>
+  <div class="hero__bg" style="background-image:url('/images/site/black-hills-home-hero.webp')"></div>
   <div class="hero__orb hero__orb--1"></div>
   <div class="hero__orb hero__orb--2"></div>
   <div class="hero__orb hero__orb--3"></div>
@@ -243,7 +243,7 @@
     </div>
     <div class="bento">
       <a href="/services/radon-mitigation.html" class="bento__card bento__card--large reveal">
-        <img src="/images/site/svc-mitigation.jpg" alt="Radon mitigation system installation in Rapid City SD" width="800" height="500" loading="lazy">
+        <img src="/images/site/black-hills-pine-home.webp" alt="Two-story home among ponderosa pines with a radon vent pipe running past the roofline" width="800" height="622" loading="lazy">
         <span class="bento__tag">Most Popular</span>
         <div class="bento__content">
           <h3 class="bento__title">Radon Mitigation &amp; System Installation</h3>
@@ -255,7 +255,7 @@
         </div>
       </a>
       <a href="/services/radon-testing.html" class="bento__card reveal reveal-delay-1">
-        <img src="/images/site/svc-testing.jpg" alt="Radon testing in Rapid City SD home" width="400" height="350" loading="lazy">
+        <img src="/images/site/radon-monitor-family-room-m.webp" alt="Continuous radon monitor on an end table in a finished basement" width="800" height="537" loading="lazy">
         <span class="bento__tag">Start Here</span>
         <div class="bento__content">
           <h3 class="bento__title">Radon Testing</h3>
@@ -267,7 +267,7 @@
         </div>
       </a>
       <a href="/services/post-mitigation-testing.html" class="bento__card reveal reveal-delay-2">
-        <img src="/images/site/svc-post-test.jpg" alt="Safe home after radon mitigation in Rapid City" width="400" height="350" loading="lazy">
+        <img src="/images/site/svc-post-test.jpg" alt="U-tube manometer on a radon pipe showing the system is pulling suction" width="400" height="350" loading="lazy">
         <span class="bento__tag">Peace of Mind</span>
         <div class="bento__content">
           <h3 class="bento__title">Post-Mitigation Testing</h3>
@@ -279,7 +279,7 @@
         </div>
       </a>
       <a href="/services/sub-slab-depressurization.html" class="bento__card reveal">
-        <img src="/images/site/svc-subslab.jpg" alt="Sub-slab depressurization system" width="400" height="280" loading="lazy">
+        <img src="/images/site/basement-radon-pipe-m.webp" alt="White PVC radon pipe rising from a sealed point in a basement floor slab" width="800" height="533" loading="lazy">
         <div class="bento__content">
           <h3 class="bento__title">Sub Slab Depressurization</h3>
           <p class="bento__desc">The EPA-approved standard for basement and slab foundations.</p>
@@ -290,7 +290,7 @@
         </div>
       </a>
       <a href="/services/radon-fan-replacement.html" class="bento__card reveal reveal-delay-1">
-        <img src="/images/site/svc-fan.jpg" alt="Radon fan replacement service" width="400" height="280" loading="lazy">
+        <img src="/images/site/radon-fan-vent-stack-m.webp" alt="Inline radon fan on a vent pipe running up the side of a ranch home past the roofline" width="800" height="537" loading="lazy">
         <div class="bento__content">
           <h3 class="bento__title">Radon Fan Replacement</h3>
           <p class="bento__desc">Existing fan failing? High-efficiency replacements, $300 to $600 installed.</p>
@@ -301,7 +301,7 @@
         </div>
       </a>
       <a href="/services/radon-system-installation.html" class="bento__card reveal reveal-delay-2">
-        <img src="/images/site/svc-install.jpg" alt="New radon mitigation system installed" width="400" height="280" loading="lazy">
+        <img src="/images/site/radon-pipe-strap-install-m.webp" alt="Technician strapping a white radon pipe to a basement wall" width="800" height="547" loading="lazy">
         <div class="bento__content">
           <h3 class="bento__title">New System Installation</h3>
           <p class="bento__desc">Full certified installation for homes without existing mitigation.</p>
@@ -366,7 +366,7 @@
         <a href="/about.html" class="btn btn--white">About Our Team</a>
       </div>
       <div class="why__visual reveal reveal-delay-2">
-        <img src="/images/site/neighborhood.jpg" alt="Professional radon mitigation team serving Rapid City SD" class="why__image" width="600" height="520" loading="lazy">
+        <img src="/images/site/neighborhood.jpg" alt="Tree-lined residential street in Rapid City" class="why__image" width="600" height="520" loading="lazy">
         <div class="why__float why__float--1">
           <div class="why__float-num">87</div>
           <div class="why__float-label">Verified Reviews</div>
